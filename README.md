@@ -114,6 +114,7 @@ Based on empirical pipeline outputs, algorithmic copy-trading software should fo
 
 ## 8. Repository Layout & Setup
 
+```text
 ├── data/
 │   ├── cleaned_portfolio_final.csv
 │   └── insider_price_correlation.csv

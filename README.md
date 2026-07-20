@@ -1,15 +1,4 @@
 # Senate-Insider-Trading-Analysis
-Capstone Project: A Python data pipeline analyzing U.S. Senate financial disclosures under the STOCK Act. Evaluates net abnormal alpha and market timing consistency against the S&amp;P 500 baseline using the Google Data Analytics framework.
-Ah, I see exactly what is happening! This is actually the output display of our chat interface breaking the layout, not the code inside the block itself.
-
-Because the text contains triple backticks (`````), the chat display gets confused, cuts the dark code container early, and spits the rest out as normal text.
-
-To fix this so you can copy it perfectly without the chat interface intercepting the formatting, I have stripped out the decorative internal code blocks inside the text workflow diagram and the final layout sections.
-
-Copy **everything** inside this single unified box below—it is 100% complete and will render flawlessly on GitHub:
-
-```markdown
-# Senate-Insider-Trading-Analysis
 
 Capstone Project: A Python data pipeline analyzing U.S. Senate financial disclosures under the STOCK Act. Evaluates net abnormal alpha and market timing consistency against the S&P 500 baseline using the Google Data Analytics framework.
 
@@ -141,9 +130,7 @@ Based on empirical pipeline outputs, algorithmic copy-trading software should fo
 ### Execution Pipeline
 To run the analytics suite and update visual assets locally:
 
-git clone [https://github.com/raytse009/Senate-Insider-Trading-Analysis.git](https://github.com/raytse009/Senate-Insider-Trading-Analysis.git)
+git clone https://github.com/raytse009/Senate-Insider-Trading-Analysis.git
 cd Senate-Insider-Trading-Analysis
 pip install pandas yfinance numpy matplotlib seaborn
 python scripts/create_portfolio_charts.py
-
-```
